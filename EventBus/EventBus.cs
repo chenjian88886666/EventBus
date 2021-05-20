@@ -17,7 +17,7 @@ namespace EventBus
     public class EventBus : IEventBus
     {
         private readonly IEventStore _eventStore;
-        public IWindsorContainer IocContainer { get; private set; }
+        public IWindsorContainer IocContainer { get;  set; }
         public static EventBus Default { get; private set; }
 
         public EventBus()
