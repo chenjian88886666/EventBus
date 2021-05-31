@@ -57,9 +57,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\EventBus\EventBus.csproj">
+    <ProjectReference Include="..\EventBus\EventBus-HA.csproj">
       <Project>{91b44572-9b1b-4a0f-ab64-292a92933cf3}</Project>
-      <Name>EventBus</Name>
+      <Name>EventBus-HA</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
